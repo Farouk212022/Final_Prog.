@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/Logo_Blue.png">
+
+    <!-- Bootstrap CSS -->
+    <link type="text/css"rel="stylesheet"href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+
+    <!-- Chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js" integrity="sha512-Lii3WMtgA0C0qmmkdCpsG0Gjr6M0ajRyQRQSbTF6BsrVh/nhZdHpVZ76iMIPvQwz1eoXC3DmAg9K51qT5/dEVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<title>Mujeres En La Ingeniería Informática</title>
+</head>
+<body>
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		  <div class="container-fluid">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link" style="color: aqua;" target="blank" href="https://www.instagram.com/faroukabdala_21/?hl=es-la"onmouseover="this.style.color='#07A6FB'"; onmouseout="this.style.color='aqua'"><b>Carlos Farouk Abdalá Rincón</b></a>
+		        </li>
+		        </li>
+		      </ul>
+		    </div>
+		<div>
+			<img src="images/earth-planet.gif" width="60">
+			</div>
+		</div>
+	</nav>
+<br>
+<br>
+<br>
+
+<section id="portada">
+	<div class="container-fluid" style="background-image: url(images/tittle-back.gif);">
+	<div class="row">
+		<div class="col-5">
+			<center><img src="images/tittle.png" width="850"></center>
+		</div>
+		<div class="col-1"></div>
+		<div class="col-5  d-flex align-items-center" style="background-color: #C8C8C8;">
+			<center><h1 style="font-size: 50px;"><b>¿Por Qué Las Niñas No Quieren Estudiar Informática?</b></</h1>
+				<br><br>
+			<h2 style=" font-size: 25px;"><i>¿Quieres ayudar? Llena este formulario</i></h2><br>
+			<a href="#formulario"><button type="button" class="btn btn-primary"><b><i>Formulario</i></b></button></center></a>
+
+		</div>
+		</div>
+</div>
+</section>
+<br><br><br>
+<section id="intro">
+	<div class="container-fluid" style="background-image: url(images/tittle-back.gif);">
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-5 d-flex align-items-center" style="background-color: #C8C8C8;">
+			<h3 style="font-size: 20px;"><i>La ingeniería es uno de los campos más importantes y destacados en el avance de la humanidad a lo largo de los años. Todo lo que usamos actualmente se ve afectado por alguna rama de la ingeniería, desde la casa en la que vivimos que tuvo que ser planeada por un ingeniero civil, hasta el dispositivo desde el que se esta leyendo esto, que tuvo que funciona gracias al trabajo de ingenieros electrónicos, informáticos y de sistemas. Por lo anterior es importante que esta rama permanezca vigente durante los años.</h3></div></i>
+		<div class="col-1"></div>
+		<div class="col-sm-5">
+			<img src="images/intro-image.png" style="width: 300px;">
+		</div>
+	</div>
+</div>
+</section>
+
+<br><br><br>
+<section id="sections">
+<div>
+	<div class="container-fluid" style="background-image: url(images/tittle-back.gif);">
+		<br>
+		<h1 style="color:white; font-size: 50px;"><center><b><i>Secciones</i></b></center></h1><br>
+		<div class="row">
+		<div class="col-4">
+			<div class="card" style="border-color: white; background-color: black;border-color: #07A6FB;">
+			  <center><img src="images/prob_sec_img.png" class="card-img-top" alt="Prob_img" style="max-height:200px; width:200px"></center>
+			  <div class="card-body">
+			    <h5 class="card-title" style="color:white;"><center>Problemática</center></h5>
+			    <p class="card-text" style="color:white">La falta de mujeres en la ingeniería Inofrmática generará dificultades a futuro.</p>
+    			<center><a href=#problema class="btn btn-primary" onclick="close_all();open_prob()"><b><i>Abrir Sección</i></b></a></center>
+  				</div>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card" style="border-color: white; background-color: black;border-color: #07A6FB;">
+			  <center><img src="images/est_sec_img.png" class="card-img-top" alt="Est_img" style="max-height:200px; width:200px"></center>
+			  <div class="card-body">
+			    <h5 class="card-title" style="color:white;"><center>Esterotipos</center></h5>
+			    <p class="card-text" style="color:white">Los estereotipos generan que pocas mujeres se interesen por la carrera.</p>
+    			<center><a href=#estereotipos class="btn btn-primary" onclick="close_all();open_este()"><b><i>Abrir Sección</i></b></a></center>
+  				</div>
+			</div>
+		</div>
+
+		<div class="col-4">
+			<div class="card" style="border-color: white; background-color: black; border-color: #07A6FB;">
+			  <center><img src="images/ref_sec_img.png" class="card-img-top" alt="Ref_img" style="max-height: 210px; width:257px"></center>
+			  <div class="card-body">
+			    <h5 class="card-title" style="color:white;"><center>Referentes</center></h5>
+			    <p class="card-text" style="color:white">La falta de referentes femeninos en el campo limitan las motivaciones de las mujeres.</p>
+    			<center><a href=#referentes class="btn btn-primary" onclick="close_all();open_ref()"><b><i>Abrir Sección</i></b></a></center>
+  				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+</div>
+</div>
+</section>
+
+<section id="problema" style="display: none;">
+	<div class="container-fluid" style="background-color: #000000;">
+	<br>
+		<h1 style="color:DeepSkyBlue; font-size: 50px;"><center><b><i>Problemática</i></b></center></h1><br>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-6" style="background-color: #000000;">
+			<br>
+			<h3 style="font-size: 20px; color: white;"><i>Hablando específicamente de la ingeniería informática, se dice que esta carrera podría definir de manera significativa el futuro de la humanidad por la necesidad que se ha creado en los últimos años por desarrollar e implementar tecnología en todos los campos de nuestras vidas, por ello, la programación y el uso de componentes electrónicos han tomado tanto valor para la sociedad. Si bien, lo anterior es una verdad innegable para la humanidad, esta carrera presenta una dificultad notable que podría afectar el desarrollo de nuestra sociedad en los próximos años: La gran parte de las personas que deciden estudiar Ingeniería Informática actualmente son hombres.</h3></i><br><br>
+			<center><button href=#sections type="button" class="btn btn-primary"onclick="close_all();"><b><i>Cerrar Sección</i></b></button></center>
+			<br>
+			</div>
+			<div class="col-1"></div>
+		<div class="col-sm-4">
+			<img src="images/prob_img.jpg" style="width: 300px;">
+		</div>
+	</div>
+</div>
+</section>
+
+<section id="estereotipos" style="display: none;">
+	<div class="container-fluid" style="background-color: #000000;">
+	<br>
+		<h1 style="color:DeepSkyBlue; font-size: 50px;"><center><b><i>Estereotipos</i></b></center></h1><br>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-6" style="background-color: #000000;">
+			<br>
+			<h3 style="font-size: 20px; color: white;"><i>Para muchos, esta es una situación común debida a las creencias que se tienen acerca de la carrera mencionadas en el artículo publicado por el sitio web de divulgación de académicos y periodistas “The Conversation” que se titula “¿Por qué las niñas no quieren ser informáticas?” [1]. En dicho artículo se mencionan los estereotipos establecidos por la sociedad para los ingenieros informáticos, entre los que se destacan ser hombres con poca vida social y que consumen productos altos en cafeína, además de tener una higiene no del todo apropiada y ser lo que socialmente se conocen como Nerds y Geeks [2]. Estos estereotipos influyen en el criterio con el que las mujeres tienen con respecto a la ingeniería informática, por ello, deciden, ya sea por desagrado o por aceptación social, no estudiar esta carrera.</h3></i><br><br>
+			<center><button href=#sections type="button" class="btn btn-primary"onclick="close_all();"><b><i>Cerrar Sección</i></b></button></center>
+			<br>
+			</div>
+			<div class="col-1"></div>
+		<div class="col-sm-4">
+			<img src="images/este_img.jpg" style="width: 300px;">
+		</div>
+	</div>
+</div>
+</section>
+
+<section id="referentes" style="display: none;">
+	<div class="container-fluid" style="background-color: #000000; border-color: #FFFFFF;">
+	<br>
+		<h1 style="color:DeepSkyBlue; font-size: 50px;"><center><b><i>Referentes</i></b></center></h1><br>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-6" style="background-color: #000000;">
+			<br>
+			<h3 style="font-size: 20px; color: white;"><i>El verdadero problema de todo esto está en las capacidades de muchas mujeres que se pierden al no estudiar una carrera a la cual le podrían aportar bastante, y esto genera que haya pocos referentes femeninos de la carrera, referentes que los hombres si tienen con personajes como Bill Gates, Elon Musk y Jeff Bezos, los cuales destacan por sus logros alcanzados en el mundo de la tecnología.</h3></i><br><br>
+			<center><button href=#sections type="button" class="btn btn-primary"onclick="close_all();"><b><i>Cerrar Sección</i></b></button></center>
+			<br>
+			</div>
+			<div class="col-1"></div>
+		<div class="col-sm-4">
+			<img src="images/ref_img.jpg" style="width: 300px;">
+			<br><br>
+		</div>
+	</div>
+</div>
+</section>
+<br><br>
+<section id="formulario">
+	<div class="container-fluid" style="background-image: url(images/tittle-back.gif);">
+	<br>
+		<h1 style="color:white; font-size: 50px;"><center><b><i>Formulario</i></b></center></h1><br>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-4" style="background-color: #000000;">
+			<br>
+			<h3 style="font-size: 20px; color: white;"><i>Sería fácil considerar que las mujeres únicamente han decidido no estudiar Informática debido a los estereotipos, por esto se decidió realizar una encuesta con ayuda de la herramienta KoBo ToolBox para indagar más fondo de las causales de dicha problemática, a continuación, se muestra el formulario y los resultados obtenidos hasta el día 23 de mayo de 2022.</h3></i><br><br>
+			<center><img src="images/form_img.png" style="width: 300px"></center>
+			<br>
+			</div>
+		<div class="col-sm-4">
+			<iframe src=https://ee.kobotoolbox.org/i/NESTdTtc width="800" height="600"></iframe>
+		</div>
+	</div>
+</div>
+</section>
+<br>
+<br>
+
+<section id="results">
+	<div class="container-fluid" style="background-image: url(images/tittle-back.gif);">
+	<br>
+		<h1 style="color:white; font-size: 50px;"><center><b><i>Resultados</i></b></center></h1><br>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10" style="background-color: #000000;">
+			<div class="accordion" id="accordionExample">
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <i style="color:black">¿Considera usted que los estereotipos evitan que las mujeres quieran hacer parte de carreras como la Ingeniería Informática?</i>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<p class="lead"> <canvas class="bg-black" id="Q1" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Esta gráfica nos muestra que, efectivamente, uno de los factores que más influye en la decisión de no estudiar Ingeniería Informática de las mujeres, está relacionado con los estereotipos expuestos por la sociedad.</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <i style="color:black">Señale los factores principales que crea que han establecido dicho estereotipo</i>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+        <div class="col-7">
+        	<p class="lead"> <canvas class="bg-black" id="Q2" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Aquí podemos evidenciar que los estereotipos creados para que carrera es buena para una mujer y sobre la misma carrera, son los que limitan la opcón de estudiar Ingeniería Informática de las mujeres cuando estan eligiendo que carrera desean estudiar.</h3></i></div>
+        </div>
+      </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <i style="color:black">Otros Factores</i>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<h1 style="color:DeepSkyBlue"><i>"Creencias inculcadas sobre las capacidades de las mujeres"</i></h1>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Esta respuesta nos da una respuesta también relacionada con los estereotipos impuestos por la sociedad hacia la mujer</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <i style="color:black">Considera que, hablando laboralmente, ¿La mujeres están salarialmente desmejoradas que los hombre?</i>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<p class="lead"> <canvas class="bg-black" id="Q4" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>En este caso, podemos evidenciar que los estereotipos no son la única razón por la que las mujeres no estudian Ingeniería Informática, aparentemente, existe una forma de discriminación salarial que influye en la problemática.</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <i style="color:black">¿Qué tanto cree que se note esta desmejora salarial?</i>
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<p class="lead"> <canvas class="bg-black" id="Q5" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Al parecer, la desmejora salarial que los participantes manifestaron, bastante notable, pues ninguno respondió poco, y solo uno respondió que era notable. Esto puede dar a pensar que este factor tiene una relevancia bastante alta para solucionar la problemática.</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        <i style="color:black">Considera que, culturalmente ¿El estudio y comprensión de las matemáticas podrían influir en la problemática?</i>
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<p class="lead"> <canvas class="bg-black" id="Q6" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Pasando a hablar de habilidades necesarias para el estudio de la Ingeniería Informática, podemos evidenciar que las matemáticas no son consideradas un limitante para las mujeres a la hora de pensar en esta carrera.</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        <i style="color:black">Considera que, socialmente ¿El desarrollo de habilidades como la programación y la implementación de nuevas herramientas tecnológicas podrían influir en la problemática?</i>
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<p class="lead"> <canvas class="bg-black" id="Q7" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Socialmente, las habilidades de programación y diseño tecnológico parecen influir de manera negativa en la decisión de las mujeres a la hora de pensar en la Ingeniería Informática. Esto confirma que los estereotipos impuestos por la sociedad afectan de manera negativa como se había mencionado antes.</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        <i style="color:black">Considera que socialmente ¿La implementación de habilidades electrónicas, podrían influir en la problemática?</i>
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<p class="lead"> <canvas class="bg-black" id="Q8" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Al igual que con la programación, las habilidades electrónicas están socialmente destinadas para los hombres, factor que evita que las mujeres se interesen en el desarrollo de nuevas tecnologías por medio de la Ingeniería Informática.</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingNine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+        <i style="color:black">Teniendo en cuenta sus respuesta de las tres preguntas anteriores ¿Considera que las habilidades necesarias para estudiar y ejercer como ingeniero informático podrían desmotivar a la mujer en el estudio de esta disciplina?</i>
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4">
+        	<p class="lead"> <canvas class="bg-black" id="Q9" width="100" height="100"> </canvas> </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="font-size: 20px; color: white;"><i>Esta gráfica nos da unos resultados alarmantes, pues la mayoría de los que respondieron “Si” a las tres preguntas anteriores, consideran que las habilidades necesarias para estudiar Ingeniería Informática son las razones para que las mujeres se desmotiven al momento de pensar en la carrera, estas respuestas refuerzan el estereotipo del que se ha hablado durante este comentario.</h3></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+        <i style="color:black">Teniendo en cuenta de que se habla que la Ingeniería Informática es la carrera del futuro, ¿Qué consecuencias cree que se podrían dar si esta problemática se sigue presentando?</i>
+      </button>
+    </h2>
+    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center">
+        	<h3 style="color:DeepSkyBlue; font-size: 20px"><i>"Las oportunidades de trabajo se verían notablemente afectadas por esta situación."<br>
+        		<br>"Gran ampliamiento de la brecha de género"<br><br>
+        		"El futuro de las inteligencias artificiales va a ser en base a un pensamiento de hombre, no va a ser completamente neutral"<br><br>
+        		"Que se presentará una mayor brecha de género en la que las mujeres quedarán relegadas"<br><br>
+        		"Una continua disminución del número de mujeres graduadas en informática"<br><br>
+        		"Falta de personal"<br><br>
+        		"Que no existan tantas mujeres con esta profesion"<br><br>
+        		"Que exista una decandecia respecto a la cantidad de Ingenieras informaticas"<br>
+        	</i></h3>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="color:DeepSkyBlue; font-size: 20px"><i>"No es una problemática la falta de mujeres en la informática"<br>
+        		<br>"Pérdida de potencial talento"<br><br>
+        		"Pérdida de talento potencial"<br><br>
+        		"En general que el mercado laboral estaria inundado unicamente por hombres"<br><br>
+        		"Desinteres"<br><br>
+        		"Ninguna consequencia pero pocos beneficios"<br><br>
+        		"Falta de visión en un campo puede llevar a que las soluciones implemetadas en el mismo dejen de lado a gran parte de los usuarios."<br><br>
+        		"Pocos talentos podrian estar para un mejor futuro"<br>
+        	</i></h3>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEleven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+        <i style="color:black">¿Qué soluciones propondría para incentivar a las mujeres a ser parte del programa de Ingeniería Informática?</i>
+      </button>
+    </h2>
+    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="background-color:black;">
+      	<div class="row">
+      		<div class="col-1"></div>
+        <div class="col-4 d-flex align-items-center">
+        	<h3 style="color:DeepSkyBlue; font-size: 20px"><i>"Mostrar la importancia de ambos géneros y su aporte en la carrera, de este modo se dejaría de lado el falso estereotipo."<br>
+        		<br>"Desde las aulas enseñar sobre la importancia de la mujer en la ingeniería y no cuestionar las habilidades/capacidades de la mujer."<br><br>
+        		"Darles referentes que las inspiren"<br><br>
+        		"Que se atrevan q desafiarse a ellas mismas y dejen los prejuicios de lado"<br><br>
+        		"Enseñanza de informática básica desde la escuela"<br><br>
+        		"Campañas"<br><br>
+        		"Programas por parte de la universidad y el promover la igualdad laboral y salarial de esta profesion frente al genero"<br><br>
+        		"El eliminar los estereotipos de la sociedad incluyendo la brecha laboral y salarial qeu existe"<br>
+        	</i></h3>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-4 d-flex align-items-center"><h3 style="color:DeepSkyBlue; font-size: 20px"><i>"No se puede incentivar a una persona a participar de algo que tiene a su alcance y del cual no quiere hacer parte"<br>
+        		<br>"Trabajar en los estereotipos que se muestran y una mayor motivación y beneficios para las mujeres"<br><br>
+        		"Que exista una disminución de prototipos erróneos y una mayor motivación"<br><br>
+        		"Motivarlas y apoyarlas al igual que a cualquier persona sin importar su genero"<br><br>
+        		"Quitar todo estereotipo"<br><br>
+        		"Promocion desde el colegio"<br><br>
+        		"Tiene que empezar a normalizarse desde casa, colegio y entorno social que la mujer se interese por campos que son comúnmente cosiderados como masculinos."<br><br>
+        		"Mostrar referentes femeninos, mostrar que es una carrera que no tiene estigmas"<br>
+        	</i></h3>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+	</div>
+</div>
+<br><br>
+</section>
+<br><br><br>
+<section id="conclusion">
+	<div class="container-fluid" style="background-image: url(images/tittle-back.gif);">
+		<h1 style="color:White; font-size: 50px;"><center><b><i>Conclusión</i></b></center></h1><br>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-6" style="background-color: #000000;">
+			<br>
+			<h3 style="font-size: 20px; color: white;"><i>Como conclusión, podemos asumir que la falta de mujeres en la Ingeniería Informática se debe a los estereotipos establecidos por la sociedad y por las marcas, estos se generan con el propósito de estigmatizar y dividir los gustos entre niños y niñas desde que son muy pequeños. Además, la desmejora salarial que tienen las mujeres en el campo de la Informática, también generado por los estereotipos mencionados, desmotivan notablemente a las mujeres cuando piensan en estudiar Ingeniería Informática. 
+			<br><br>
+			Por lo anterior, es necesario establecer un cambio en los estereotipos y motivar a las mujeres a estudiar carreras que normalmente están vistas para los hombres. Por esto es importante apoyar iniciativas como la de IEEE WIE [3], una organización que busca generar conciencia e incentivar a las mujeres a hacer parte de las ramas de las diversas ramas de la Ingeniería.
+		</h3></i><br><br>
+			<br>
+			</div>
+			<div class="col-1"></div>
+		<div class="col-4 d-flex align-items-center">
+			<img src="images/con_img.jpg" style="width: 300px;">
+		</div>
+	</div>
+</div>
+</section>
+
+<br><br><br>
+<section id="references">
+<div class="container-fluid" style="background-color: black;">
+		<h1 style="color:White; font-size: 15px;"><center><b><i>Referancias</i></b></center></h1>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-11" style="background-color: #000000;">
+			<h3 style="font-size: 10px; color: white;"><i>[1] 	R. P. d. Castillo, «The Conversation,» 27 Abril 2022. [En línea]. Available: https://theconversation.com/por-que-las-ninas-no-quieren-ser-informaticas-179920. [Último acceso: 22 Mayo 2022].
+<br><br>[2] 	D. Pardo, «BBC News,» 24 Junio 2013. [En línea]. Available: https://www.bbc.com/mundo/noticias/2013/06/130624_tecnologia_geek_nerd_definicion_diferencia_dp#:~:text=Nerd%3A%20%22Un%20intelectual%20estudioso%2C,curiosidades%20y%20objetos%20de%20inter%C3%A9s%22.. [Último acceso: 22 Mayo 2022].
+<br><br>[3] 	IEEE WIE, «IEEE WIE,» IEEE Women in Engineering, 2020. [En línea]. Available: https://wie.ieee.org/aboutieeewie/. [Último acceso: 22 Mayo 2022].
+		</h3></i>
+			<br>
+			</div>
+	</div>
+</div>
+</section>
+
+<style type="text/css">
+	body{background-color: black;}
+
+</style>
+<script type="text/javascript">
+	function open_prob(){
+		document.getElementById('problema').style.display='block';
+	}
+	function open_este(){
+		document.getElementById('estereotipos').style.display='block';
+	}
+	function open_ref(){
+		document.getElementById('referentes').style.display='block';
+	}
+	function close_all(){
+		document.getElementById('problema').style.display='none';
+		document.getElementById('estereotipos').style.display='none';
+		document.getElementById('referentes').style.display='none';
+	}
+
+    const ctx1 = document.getElementById('Q1').getContext('2d');
+    const myChart1 = new Chart(ctx1, {
+    type: 'doughnut',
+    data: {
+        labels: ['Si', 'No'],
+        datasets: [{
+            label: 'Votos',
+            data: [11, 5],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+    const ctx2 = document.getElementById('Q2').getContext('2d');
+    const myChart2 = new Chart(ctx2, {
+    type: 'doughnut',
+    data: {
+        labels: ['Imágenes erróneas creadas por diferente empresas sobre las carreras "apropiadas" para una mujer.', 'Imágenes creadas por usuarios de internet como memes, que crean estereotipos erróneos sobre la misma carrera','Poca imagen de referencia que se ha creado para las mujeres en la carrera durante los últimos años.','El campo laboral que ofrece el graduarse de esta carrera, limita la oportunidades de trabajo de una mujer.','La carrera trata temas más llamativos para hombres que para mujeres.','Otro.'],
+        datasets: [{
+            label: 'Votos',
+            data: [8,7,4,3,2,1],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)',
+                'rgba(31, 255, 0, 0.5)',
+                'rgba(243, 255, 0, 0.5)',
+                'rgba(255, 0, 0, 0.5)',
+                'rgba(255, 0, 224, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)',
+                'rgba(31, 255, 0, 1)',
+                'rgba(243, 255, 0, 1)',
+                'rgba(255, 0, 0, 1)',
+                'rgba(255, 0, 224, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+    const ctx4 = document.getElementById('Q4').getContext('2d');
+    const myChart4 = new Chart(ctx4, {
+    type: 'doughnut',
+    data: {
+        labels: ['Si', 'No'],
+        datasets: [{
+            label: 'Votos',
+            data: [10, 6],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+    const ctx5 = document.getElementById('Q5').getContext('2d');
+    const myChart5 = new Chart(ctx5, {
+    type: 'doughnut',
+    data: {
+        labels: ['Demasiado', 'Notablemente', 'Poco'],
+        datasets: [{
+            label: 'Votos',
+            data: [9, 1, 0],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)',
+                'rgba(31, 255, 0, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)',
+                'rgba(31, 255, 0, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+    const ctx6 = document.getElementById('Q6').getContext('2d');
+    const myChart6 = new Chart(ctx6, {
+    type: 'doughnut',
+    data: {
+        labels: ['Si', 'No'],
+        datasets: [{
+            label: 'Votos',
+            data: [7, 9],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+const ctx7 = document.getElementById('Q7').getContext('2d');
+    const myChart7 = new Chart(ctx7, {
+    type: 'doughnut',
+    data: {
+        labels: ['Si', 'No'],
+        datasets: [{
+            label: 'Votos',
+            data: [11, 5],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+    const ctx8 = document.getElementById('Q8').getContext('2d');
+    const myChart8 = new Chart(ctx8, {
+    type: 'doughnut',
+    data: {
+        labels: ['Si', 'No'],
+        datasets: [{
+            label: 'Votos',
+            data: [9, 7],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+    const ctx9 = document.getElementById('Q9').getContext('2d');
+    const myChart9 = new Chart(ctx9, {
+    type: 'doughnut',
+    data: {
+        labels: ['Si', 'No'],
+        datasets: [{
+            label: 'Votos',
+            data: [4, 1],
+            backgroundColor: [
+                'rgba(7, 166, 251, 0.5)',
+                'rgba(255, 255, 255, 0.5)'
+            ],
+            borderColor: [
+                'rgba(7, 166, 251, 1)',
+                'rgba(255, 255, 255, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+</script>
+
+</body>
+
+</html>
